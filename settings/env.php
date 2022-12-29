@@ -1,0 +1,17 @@
+<?php
+// Environmental variables
+
+// Database credentials
+if (!defined('DATABASE_NAME')) define('DATABASE_NAME', 'ENTER YOUR DATABASE NAME');
+if (!defined('DATABASE_SERVER')) define('DATABASE_SERVER', 'ENTER YOUR DATABASE SERVER');
+if (!defined('DATABASE_USERNAME')) define('DATABASE_USERNAME', 'ENTER YOUR DATABASE USERNAME');
+if (!defined('DATABASE_PASSWORD')) define('DATABASE_PASSWORD', 'ENTER YOUR DATABASE PASSWORD');
+
+// SMTP details
+if (!defined('GMAIL_USERNAME')) define('GMAIL_USERNAME', 'ENTER YOUR GMAIL USERNAME');
+if (!defined('GMAIL_APP_PASSWORD')) define('GMAIL_APP_PASSWORD', 'ENTER YOUR GOOGLE APP PASSWORD'); // Different from login password
+
+// Other
+if (!defined('LOCALHOST_ADDRESS')) define('LOCALHOST_ADDRESS', 'ENTER YOUR LOCALHOST ADDRESS');
+if (!defined('SUPER_ADMIN_EMAIL')) define('SUPER_ADMIN_EMAIL', 'ENTER YOUR SUPER ADMIN EMAIL');
+?>
